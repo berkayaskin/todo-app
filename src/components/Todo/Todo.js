@@ -2,15 +2,11 @@ import React from 'react';
 import './Todo.css';
 
 class Todo extends React.Component {
-
-    state = {
-    }
-
     render() {
         return (
             <div className="Todo">
                 <button>Edit</button>
-                <button>X</button>
+                <button onClick={this.props.removeTodo}>X</button>
                 <li>{this.props.task}</li>
             </div>
         );

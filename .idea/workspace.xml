@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a364e86a-3048-4a36-837a-230c5d1cc7c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/NewTodoForm/NewTodoForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NewTodoForm/NewTodoForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewTodoForm/NewTodoForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewTodoForm/NewTodoForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Todo/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Todo/Todo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TodoList/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568293947471</updated>
-      <workItem from="1568293950190" duration="1930000" />
+      <workItem from="1568293950190" duration="3802000" />
     </task>
     <servers />
   </component>

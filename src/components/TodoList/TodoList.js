@@ -6,7 +6,7 @@ import NewTodoForm from "../NewTodoForm/NewTodoForm";
 class TodoList extends React.Component {
 
     state = {
-        todos: [{task: "Feed the cat"}, {task: "Work!"}]
+        todos: []
     }
 
     create = newTodo => {
@@ -15,14 +15,25 @@ class TodoList extends React.Component {
         })
     }
 
+    remove = id => {
+        this.setState({
+            todos: this.state.todos.filter(todo => todo.id !== id)
+        })
+    }
+
     render() {
         const todos = this.state.todos.map(todo => {
-            return <Todo task={todo.task} />
+            return <Todo
+                key={todo.id}
+                id={todo.id}
+                task={todo.task}
+                removeTodo={() => this.remove(todo.id)}
+            />
         })
         return (
             <div className="TodoList">
                 <h1>Todo List!</h1>
-                <NewTodoForm createTodo={this.create} />
+                <NewTodoForm createTodo={this.create}/>
                 <ul>
                     {todos}
                 </ul>
