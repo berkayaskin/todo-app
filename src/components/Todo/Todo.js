@@ -24,6 +24,10 @@ class Todo extends React.Component {
         })
     }
 
+    handleToggle = e => {
+        this.props.toggleTodo(this.props.id)
+    }
+
     render() {
         return (
             this.state.isEditing ?
@@ -41,7 +45,7 @@ class Todo extends React.Component {
                 <div className="Todo">
                     <button onClick={this.toggleForm}>Edit</button>
                     <button onClick={this.props.removeTodo}>X</button>
-                    <li>{this.props.task}</li>
+                    <li className={this.props.completed ? 'completed' : ''} onClick={this.handleToggle}>{this.props.task}</li>
                 </div>
         )
     }

@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a364e86a-3048-4a36-837a-230c5d1cc7c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewTodoForm/NewTodoForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewTodoForm/NewTodoForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Todo/Todo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Todo/Todo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Todo/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Todo/Todo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TodoList/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.js" afterDir="false" />
     </list>
@@ -72,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568293947471</updated>
       <workItem from="1568293950190" duration="9695000" />
-      <workItem from="1568704999303" duration="2902000" />
+      <workItem from="1568704999303" duration="3851000" />
     </task>
     <servers />
   </component>
