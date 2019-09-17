@@ -20,7 +20,15 @@ class TodoList extends React.Component {
             todos: this.state.todos.filter(todo => todo.id !== id)
         })
     }
-
+    update = (id, updatedTask) => {
+        const updatedTodos = this.state.todos.map(todo => {
+            if (todo.id === id) {
+                return {...todo, task: updatedTask}
+            }
+            return todo
+        })
+        this.setState({todos: updatedTodos})
+    }
     render() {
         const todos = this.state.todos.map(todo => {
             return <Todo
@@ -28,6 +36,7 @@ class TodoList extends React.Component {
                 id={todo.id}
                 task={todo.task}
                 removeTodo={() => this.remove(todo.id)}
+                updateTodo={this.update}
             />
         })
         return (
